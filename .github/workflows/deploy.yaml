@@ -32,7 +32,7 @@ jobs:
       env:
         COMMAND_IAC: terraform
       run: |
-        cd infrasctructure
+        cd infrastructure
         $COMMAND_IAC fmt -check
         $COMMAND_IAC init
         $COMMAND_IAC validate
